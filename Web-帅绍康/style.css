@@ -1,0 +1,459 @@
+*{
+    margin: 0;
+    padding:0;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+body{
+    background: #f1f1f1;
+    overflow: hidden;
+}
+.navigation{
+    width: 100%;
+    height: 80px;
+    background: black;
+    position: absolute;
+    top: 0;
+    opacity: 0.3;
+}
+
+.head{
+    width: 98%;
+    height: 70px;
+    margin: 0 auto;
+    border-bottom: 1px solid rgb(216, 213, 213);
+    margin-top: 10px;
+    overflow: hidden;
+    
+}
+.log{
+    float: left;
+    position: relative;
+    top:-10px;
+    left: 15px;
+}
+.log img{
+    height:70px;
+    width: 95px;
+}
+
+.nav1{
+    height: 60px;
+    float: left;
+    width:600px;
+    position: relative;
+    left: 50px;
+}
+.nav1list{
+    float: left;
+    width: 600px;
+    line-height:70px;
+}
+.slidee{
+    width: 90px;
+    height:70px;
+    float:left;
+    margin-left: 30px;
+    position: relative;
+    font-size: 15px;
+}
+.slidee>a{
+    color: aliceblue;
+}
+
+.num1{
+    margin-top: 10px;
+    float: right;
+    height:45px;
+    margin-left: 20px;
+    width:110px;
+    border: 1px solid;
+    border-color: gray;
+    border-radius: 10%;
+    line-height: 100px;
+    text-align: center;
+    font-size: 14px;
+    position: relative;
+    left: -25px;
+}
+.num2{
+    margin-top: 10px;
+    float: right;
+    height:45px;
+    width:110px;
+    border: 1px solid;
+    border-color: gray;
+    border-radius: 10%;
+    line-height: 100px;
+    text-align: center;
+    font-size: 14px;
+    position: relative;
+    left: -25px;
+}
+.num1>a{
+    position: relative;
+    top:-27px;
+    color: aliceblue;
+}
+.num2>a{
+    position: relative;
+    top:-27px;
+    color: aliceblue;
+}
+
+
+.masking{
+    position: absolute;
+    top: 350px;
+    left: 46%;
+}
+.masking>img{
+    width:80px;
+    height: 80px;
+    opacity: 0.5;
+}
+.videoBox{
+    width: 100%;
+    height: 758px;;
+}
+video{
+    right: 0px;  
+    bottom: 0px;  
+    min-width: 100%;  
+    min-height: 100%;
+    height: auto;
+    width: auto;
+    position: relative;
+    /*加滤镜*/
+    /*filter: blur(15px); //背景模糊设置 */
+    /*-webkit-filter: grayscale(100%);*/  
+    /*filter:grayscale(100%); //背景灰度设置*/  
+    z-index:-11
+}  
+source{  
+    min-width: 100%;
+    min-height: 100%;  
+    height: auto;  
+    width: auto;  
+}
+
+.bigtitle{
+    width: 80%;
+    height: 350px;
+    margin: 0 auto;
+    background: white;
+}
+
+.bigtitle>p{
+    line-height: 200px;
+    text-align: center;
+    letter-spacing:20px;
+    font-size: 60px;
+    font-weight: 320;
+    color: #c32035;
+}
+
+.bigtitle>div{
+    text-align: center;
+    font-size: 14px;
+    line-height: 25px;
+    margin-bottom: 30px;
+}
+
+.bigtitle>span{
+    display: block;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+
+}
+
+.fineview{
+    width: 100%;
+    height: 600px;
+    background-image: url("img/摩天轮.webp");
+}
+
+.fineview>p{
+    text-align: center;
+    color: white;
+    line-height: 150px;
+    font-size: 40px;
+    font-weight: 500px;
+    letter-spacing:5px;
+    position: relative;
+    top:18px;
+    /* opacity: 0.8; */
+}
+
+.viewBox{
+    width: 80%;
+    height: 400px;
+    opacity: 0.8;
+    margin: 0 auto;
+}
+
+#pictureBox{
+    width:80%;
+    height: 400px;
+    margin: 0 auto;
+    overflow: hidden;
+    float: left;
+}
+
+.rollBox{
+    width: 2940px;
+    height: 300px;
+    position: relative;
+    top:50px;
+    left: -980px;
+}
+
+#pictureBox>div>li{
+    width: 227px;
+    height: 170px;
+    /* overflow: hidden; */
+    float: left;
+    margin-left: 9px;
+    margin-right: 9px;
+}
+#pictureBox>div>li>img{
+    display: inline-block;
+    width: 227px;
+    height: 170px;
+    overflow: hidden;
+}
+
+#pictureBox>div>li>span{
+    display: block;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 70px;
+    text-align: center;
+    color: white;
+}
+
+#pictureBox>div>li>p{
+    width: 100px;
+    height: 50px;
+    display: inline-block;
+    background: white;
+    text-align: center;
+    line-height: 50px;
+    color: #c32035;
+}
+
+#pictureBox>div>li>div{
+    width: 100px;
+    height: 50px;
+    display: inline-block;
+    background: white;
+    margin-left: 20px;
+    background: #c32035;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+}
+
+#left{
+    float: left;
+    display: inline-block;
+    width: 120px;
+    height: 400px;
+    color: white;
+    line-height: 400px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 1000;
+}
+
+#right{
+    float: left;
+    display: inline-block;
+    width: 120px;
+    height: 400px;
+    color: white;
+    line-height: 400px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 1000;
+}
+
+.chickenSoupBox{
+    width: 100%;
+    height: 550px;
+    background-image: url("img/一起去看海.webp");
+    background-size: 100%,40%;
+}
+
+.chickenSoupBox>div{
+    width: 65%;
+    height: 400px;
+    margin: 0 auto;
+    position: relative;
+    top:90px;
+}
+
+#life{
+    width:35%;
+    height:400px;
+    background-color: #f1f1f1;
+    opacity: 0.6;
+    float: left;
+    margin-left: 12.5%;
+    margin-right: 5%
+}
+
+#travel{
+    width:35%;
+    height:400px;
+    background-color: #f1f1f1;
+    opacity: 0.6;
+    float: left;
+    
+}
+
+.chickenSoupBox>div>div>span{
+    font-size: 50px;
+    font-weight: 500;
+    color: #c32035;
+    line-height: 120px;
+    letter-spacing: 5px;
+    position: relative;
+    left: 20px;
+}
+
+.chickenSoupBox>div>div>p{
+    line-height: 27px;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing:5px;
+    margin-left: 10px;
+    text-indent: 2em;
+}
+
+
+
+.backgroundpic{
+    background-image: url("img/大桥背景.webp");
+    width: 100%;
+    height: 560px;
+}
+
+.keybody{
+    width: 70%;
+    height: 550px;
+    margin: 0 auto;
+}
+.tittle{
+    width: 15%;
+    height: 400px;
+    float: left;
+    margin-top: 75px;
+    margin-left: 15px;
+    padding-top: 15px;
+    border-radius: 5%;
+    border: 1px solid gray;
+    opacity: 0.7;
+}
+
+.tittle>ul>li{
+    width: 90%;
+    height: 50px;
+    margin: 0 auto;
+    border: 1px solid gray;
+    margin-top: 2px;
+    border-radius: 15%;
+    font-size: 18px;
+    color:white;
+    line-height: 50px;
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+.introduce{
+    width: 80%;
+    height: 405px;
+    float: left;
+    border: 0.5px solid gray;
+    border-radius: 2%;
+    margin-top: 80px;
+    margin-left: 15px;
+    padding-left: 10px;
+    overflow: hidden;
+}
+
+.introduce>div>div{
+    width: 100%;
+    height: 400px;
+    overflow-y: scroll;
+}
+
+.introduce>div>div::-webkit-scrollbar{
+    display: none;
+}
+
+.introduce>div>div>img{
+    width:350px;
+    height: 250px;
+    margin: 10px 10px 0px 10px;
+    border: 1px solid gray;
+    float: left;
+}
+
+.introduce>div>div>span{
+    font-size: 14px;
+    text-indent: 2em;
+    letter-spacing: 10px;
+    color: white;
+    margin-left: 25px;
+}
+
+.roll{
+    position: relative;
+    top:0px;
+}
+
+.backgroundColor{
+    background-color: rgb(100, 158, 206);
+}
+
+.line{
+    border: 0.5px solid ghostwhite;
+    width: 100px;
+
+}
+
+.foot{
+    width: 100%;
+    height: 150px;
+    border: 1px solid black;
+    background: black;
+}
+
+.bottom{
+    width:1200px;
+    height: 150px;
+    margin:0 auto;
+    text-align: center;
+}
+.clear li{
+    color:#d6d6d6;
+    font-size:14px;
+    float: left;
+    margin-right:8px;
+}
+.bottom ul{
+	margin-top: 30px;
+	display: inline-block;
+}
+.p{
+    font-size: 14px;
+    margin-top: 15px;
+    color: #d6d6d6;
+}
